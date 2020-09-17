@@ -8,7 +8,7 @@ int main(){
     printf("Hola mundo\n");
     
     printf("Nombre: ");
-    scanf("%s",nombre);
+    fgets(nombre, sizeof(nombre), stdin);
     printf("Hola %s\n", nombre);
 
     return 0;
